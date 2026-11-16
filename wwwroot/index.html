@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Course API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Student Course Management</h1>
+        <p>View and manage available courses</p>
+    </header>
+
+    <main>
+        <section class="course-section">
+            <h2>Available Courses</h2>
+
+            <button onclick="loadCourses()">Refresh Courses</button>
+
+            <p id="message"></p>
+
+            <div id="courseList" class="course-list">
+                Loading courses...
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>CMPS360 | Student Course API</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
